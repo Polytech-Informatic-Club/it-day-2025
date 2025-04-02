@@ -94,7 +94,7 @@ main {
 }
 
 .schedule-header {
-    background-color: var(--primary);
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: white;
     padding: 1.5rem;
     text-align: center;
@@ -185,6 +185,7 @@ main {
 
 .partner-list {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 1rem;
@@ -417,3 +418,25 @@ footer a {
     }
 }
 
+
+
+
+.section-highlight {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.highlight-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.highlight-content {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc5c;
+}

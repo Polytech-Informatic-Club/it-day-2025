@@ -15,3 +15,5 @@ updateCountdown();
 
 // Update daily
 setInterval(updateCountdown, 86400000);
+
+
