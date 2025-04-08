@@ -418,8 +418,17 @@ footer a {
     }
 }
 
+.panel {
+    background: linear-gradient(135deg, #2c5ba6, #7b43ff) !important;
+    color: white;
+    font-size: 18px;
 
-
+}
+.sujet, .paneliste, .moderateur {
+    color: #ffcc5c;
+    font-weight: 600;
+    font-size: 20px;
+}
 
 .section-highlight {
     background: linear-gradient(135deg, #3b82f6, #8b5cf6);
@@ -443,3 +452,4 @@ footer a {
     font-weight: bold;
     color: #ffcc5c;
 }
+
